@@ -6,7 +6,9 @@
 *.pdf
 
 # Session Data files
-*.RData
+EC*.RData
+NA*.RData
+Flow.Rdata
 *.csv
 *.docx
 
