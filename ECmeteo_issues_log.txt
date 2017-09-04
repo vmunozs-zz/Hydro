@@ -1,0 +1,27 @@
+Problems Encountered with ECmeteo 
+
+Date: July 31, 2017
+
+Running ECm.capture.all:
+
+multicore = F
+Error in read.table(file = file, header = header, sep = sep, quote = quote,  : 
+  more columns than column names
+
+multicore = T
+Error in checkForRemoteErrors(val) : 2 nodes produced errors; first error: more columns than column names
+
+
+Date: August 2, 2017
+
+Running ECm.analysis
+Error in valid.data(rep(units, length.out = length(x)), data) : 
+  no 'grob' supplied for 'grobwidth/height' unit
+
+-> ask to clean screen
+
+Date: August 9, 2017
+
+ECm.evap -> to be improved
+
+ECm.normal.capture -> doesn't run properly. Also add other climate normal periods?

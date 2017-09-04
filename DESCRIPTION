@@ -1,0 +1,14 @@
+Package: Hydro
+Type: Package
+Title: Compilation of hydrogical tools from EC, NOAA and Climate Change
+Version: 2.48
+Date: 2017-08-31
+Author: Victor Munoz S.
+Maintainer: Victor Munoz S. <vmunozs@gmail.com>
+Description: Compilation of typical tools to be used in worldwide hydrology and climate change analyzes.
+License: -
+NeedsCompilation: no
+Packaged: 2017-05-03 15:33:29 UTC; vmunoz
+RoxygenNote: 6.0.1
+Imports:
+        calibrate,copula,EcoHydRology,Evapotranspiration,ggplot2,grid,gridExtra,hydroTSM,Kendall,lubridate,matrixStats,mblm,ncdf.tools,nsRFA,proto,quantreg,raster,RCurl,rgdal,RODBC,signal,stringr,udunits2,XML,xts,zoo,zyp,dataRetrieval,geosphere,hydroTSM,lattice,ncdf4,RCurl,RODBC,waterData,XML
